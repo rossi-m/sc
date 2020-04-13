@@ -1,0 +1,46 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: item-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/leyou?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+  rabbitmq:
+    host: 192.168.119.130
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
+    #amqp
+    template:
+      retry:
+        enabled: true     #重试开启
+        initial-interval: 10000ms #初始化的重试周期
+        max-interval: 30000ms #最大重试周期
+        multiplier: 2
+      exchange: ly.item.exchange  #默认交换机
+    publisher-confirms: true    #开启生产者确认
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+mybatis:      #日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000
+#ribbon的超时时间
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000

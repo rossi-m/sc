@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sc-order" />
+        <module name="sc-common" />
+        <module name="ly-user-service" />
+        <module name="sc-upload" />
+        <module name="sc-search" />
+        <module name="ly-user-interface" />
+        <module name="sc-item-interface" />
+        <module name="sc-gateway" />
+        <module name="sc-cart" />
+        <module name="ly-cart" />
+        <module name="sc-item-service" />
+        <module name="sc-auth-common" />
+        <module name="sc-registry" />
+        <module name="sc-page" />
+        <module name="sc-sms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sc-auth-common" target="1.8" />
+      <module name="sc-auth-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ly-cart" options="-parameters" />
+      <module name="ly-user-interface" options="-parameters" />
+      <module name="ly-user-service" options="-parameters" />
+      <module name="sc" options="-parameters" />
+      <module name="sc-auth-common" options="-parameters" />
+      <module name="sc-auth-service" options="-parameters" />
+      <module name="sc-cart" options="-parameters" />
+      <module name="sc-common" options="-parameters" />
+      <module name="sc-gateway" options="-parameters" />
+      <module name="sc-item" options="-parameters" />
+      <module name="sc-item-interface" options="-parameters" />
+      <module name="sc-item-service" options="-parameters" />
+      <module name="sc-order" options="-parameters" />
+      <module name="sc-page" options="-parameters" />
+      <module name="sc-registry" options="-parameters" />
+      <module name="sc-search" options="-parameters" />
+      <module name="sc-sms" options="-parameters" />
+      <module name="sc-upload" options="-parameters" />
+      <module name="sc-user" options="-parameters" />
+    </option>
+  </component>
+</project>

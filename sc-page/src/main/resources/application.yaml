@@ -1,0 +1,33 @@
+server:
+  port: 8094
+spring:
+  application:
+    name: page-service
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 192.168.119.130
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000
+#ribbon的超时时间
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-auth/ly-auth-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-auth/ly-auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-item/sc-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-item/sc-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-page" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-user/ly-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-user/ly-user-service" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
